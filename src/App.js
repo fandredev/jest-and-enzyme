@@ -1,11 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Learn React Test </h1>
+    <div data-test="component-app">
+      <h1>App</h1>
     </div>
   );
 }
